@@ -21,6 +21,8 @@ export async function getStaticProps() {
   const jsonData = fs.readFileSync(filepath, 'utf8');
   const data = JSON.parse(jsonData);
 
+  data.sort((a, b) => b.rating - a.rating);
+
   return {
     props: {
       cards: data,
