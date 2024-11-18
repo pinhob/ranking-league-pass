@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import fs from 'fs';
 import path from "path";
 import { InferGetStaticPropsType } from "next";
+import CustomCard from "@/components/CustomCard";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,16 +35,7 @@ export default function Home({ cards }: { cards: InferGetStaticPropsType<typeof 
     >
       {
         cards.map((card, index) => (
-          <Card key={index}>
-          <CardHeader>
-            <CardTitle>{card.team}</CardTitle>
-            <CardDescription>
-              <p>{card.rating}</p>
-              <p>{card.stamp}</p>
-              <p>{card.over ? "over" : "under"}</p>
-            </CardDescription>
-          </CardHeader>
-        </Card>
+          <CustomCard data={card} key={index} />
         ))
       }
     </div>
