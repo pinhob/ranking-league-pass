@@ -1,4 +1,3 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import localFont from "next/font/local";
 import fs from 'fs';
 import path from "path";
