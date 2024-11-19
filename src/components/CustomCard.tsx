@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CollapsibleContent } from "@radix-ui/react-collapsible";
 import { ChevronsUpDown } from "lucide-react"
 import franchiseNames from "@/utils/franchiseNames";
+import Image from "next/image";
 
 interface Data {
     team: string,
@@ -22,6 +23,7 @@ export default function CustomCard({ data }: { data: Data }) {
     return (
         <Card>
             <CardHeader>
+                <Image src={`/logos/${data.team}.svg`} alt={data.team} width={100} height={100} />
                 <CardTitle>{franchise ? franchise.name : data.team}</CardTitle>
                 <CardDescription>
                     <p>{data.rating}</p>
