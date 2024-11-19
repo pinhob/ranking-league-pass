@@ -1,0 +1,242 @@
+[
+    {
+        "team": "thunder",
+        "rating": 10,
+        "stamp": "halle",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "timberwolves",
+        "rating": 8,
+        "stamp": "halle",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "nuggets",
+        "rating": 8,
+        "stamp": "halle",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "jazz",
+        "rating": 2,
+        "stamp": "beal",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "trail-blazers",
+        "rating": 28,
+        "stamp": "beal",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "pistons",
+        "rating": 4,
+        "stamp": "beal",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "bucks",
+        "rating": 9,
+        "stamp": "leao",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+        {
+        "team": "cavaliers",
+        "rating": 9,
+        "stamp": "leao",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "pacers",
+        "rating": 10,
+        "stamp": "leao",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "bulls",
+        "rating": 4,
+        "stamp": "beal",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "spurs",
+        "rating": 6,
+        "stamp": "thibs",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "mavericks",
+        "rating": 7,
+        "stamp": "halle",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "grizzlies",
+        "rating": 7,
+        "stamp": "kg",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "pelicans",
+        "rating": 9,
+        "stamp": "kg",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "rockets",
+        "rating": 7,
+        "stamp": "kg",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "nets",
+        "rating": 5,
+        "stamp": "beal",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "celtics",
+        "rating": 8,
+        "stamp": "halle",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "knicks",
+        "rating": 9,
+        "stamp": "hale",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "75ers",
+        "rating": 8,
+        "stamp": "leao",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "raptors",
+        "rating": 4,
+        "stamp": "thibs",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "clippers",
+        "rating": 6,
+        "stamp": "thibs",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "suns",
+        "rating": 8,
+        "stamp": "leao",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "kings",
+        "rating": 8,
+        "stamp": "kg",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "lakers",
+        "rating": 9,
+        "stamp": "kg",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "warriors",
+        "rating": 10,
+        "stamp": "kg",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "wizards",
+        "rating": 1,
+        "stamp": "tank",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "hornets",
+        "rating": 9,
+        "stamp": "thibs",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "hawks",
+        "rating": 8,
+        "stamp": "thibs",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "heat",
+        "rating": 7,
+        "stamp": "kg",
+        "over": false,
+        "resume": "",
+        "videoTimestamp": "" 
+    },
+    {
+        "team": "magic",
+        "rating": 8,
+        "stamp": "kg",
+        "over": true,
+        "resume": "",
+        "videoTimestamp": "" 
+    }
+]
