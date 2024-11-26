@@ -32,7 +32,7 @@ export async function getStaticProps() {
 export default function Home({ cards }: { cards: InferGetStaticPropsType<typeof getStaticProps> }) {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
+      className={`bg-background ${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] p-4`}
     >
       {
         cards.map((card, index) => (
