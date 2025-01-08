@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Collapsible, CollapsibleTrigger } from "./ui/collapsible";
 import { useState } from "react";
 import { CollapsibleContent } from "@radix-ui/react-collapsible";
-import { ArrowDown, ArrowUp, ChevronsUpDown } from "lucide-react"
+import { ChevronsUpDown } from "lucide-react"
 import franchiseNames from "@/utils/franchiseNames";
 import Image from "next/image";
 
@@ -27,12 +27,12 @@ export default function CustomCard({ data }: { data: Data }) {
                 
                 <div className="flex flex-col gap-1">
                     <CardTitle className="text-2xl font-bold">{franchise ? franchise.name : data.team}</CardTitle>
-                    <p className={`flex items-center font-semibold gap-1 text-sm uppercase ${data.over ? "text-green-700" : "text-red-700"}`}>
+                    <div className={`flex items-center font-semibold gap-1 text-sm uppercase ${data.over ? "text-green-700" : "text-red-700"}`}>
                         {data.over
                             ? (<><div className="w-0 h-0 border-l-[8px] border-r-[8px] border-l-transparent border-r-transparent border-b-[8px] border-b-green-700"></div> over</>)
                             : (<><div className="w-0 h-0 border-l-[8px] border-r-[8px] border-l-transparent border-r-transparent border-t-[8px] border-t-red-700"></div> under</>)
                         }
-                    </p>
+                    </div>
                     <span className="absolute -top-2 -right-2">{data.stamp}</span>
                 </div>
                 <CardDescription className="flex flex-col ml-auto text-center text-card-foreground">
