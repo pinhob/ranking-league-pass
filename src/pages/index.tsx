@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from "path";
 import { InferGetStaticPropsType } from "next";
 import CustomCard from "@/components/CustomCard";
+import Hero from "@/components/Hero";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,6 +32,8 @@ export async function getStaticProps() {
 
 export default function Home({ cards }: { cards: InferGetStaticPropsType<typeof getStaticProps> }) {
   return (
+    <>
+    <Hero />
     <div
       className={`bg-background ${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] p-4`}
     >
@@ -40,5 +43,6 @@ export default function Home({ cards }: { cards: InferGetStaticPropsType<typeof 
         ))
       }
     </div>
+    </>
   );
 }
